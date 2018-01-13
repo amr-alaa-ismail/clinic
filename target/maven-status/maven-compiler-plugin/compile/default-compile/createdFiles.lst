@@ -1,0 +1,4 @@
+com\project\clinic\Application.class
+com\project\clinic\controller\MainController.class
+com\project\clinic\model\Patient$SEX.class
+com\project\clinic\model\Patient.class
