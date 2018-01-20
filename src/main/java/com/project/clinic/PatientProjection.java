@@ -3,8 +3,6 @@ package com.project.clinic;
 import java.util.Date;
 import java.util.List;
 
-import javax.persistence.OneToMany;
-
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.rest.core.config.Projection;
 
@@ -24,6 +22,7 @@ public interface PatientProjection {
 	int getAge();
 	SEX getGender();
 	String getFileNumber();
+	String getAddress();
 	@Value("#{target.comments}")
 	List<Comment> getComments();
 	@Value("#{target.diagnosis}")

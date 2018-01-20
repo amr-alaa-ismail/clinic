@@ -1,6 +1,5 @@
 package com.project.clinic.model;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 
 import javax.persistence.Column;
